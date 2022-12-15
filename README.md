@@ -26,7 +26,7 @@ Best Model: Ensemble
 - Train_Time: 0.33
 
 Comparison: 
-- Performed worse to Baseline
+- Performed worse in comparison to Baseline
 
 ### Experiment 2: Continuous Variable 
 
@@ -38,4 +38,4 @@ Best Model: Ensemble
 - Train_Time: 0.19
 
 Comparison: 
-- Performed worse to Baseline 
+- Performed worse in comparison to Baseline

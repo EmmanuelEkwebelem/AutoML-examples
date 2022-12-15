@@ -14,8 +14,28 @@ Create two 'experiments' using the autoML package mljar-supervised
 
 Include the output of the mljar-supervised output folder inside of the github repo (e.g., so there should be 2 folders - one for classification and one for regression) 
 
-In a markdown file (readme.md): 
-- Describe the two dependent variables (outcomes) for experiment 1 and experiment 2 
-- Describe for each experiment: 
-    - What was the best performing model (please interpret (a) log-loss or RMSE between models, and (b) AUC) 
-    - How much better (? if any) did the model perform compared to baseline
+## Outcomes:
+
+### Experiment 1: Multiclass Variable 
+
+Dependent Variable: Risk of Mortality 
+
+Best Model: Ensemble 
+- Metric_Type: logloss
+- Metric_Value: 0.50403
+- Train_Time: 0.33
+
+Comparison: 
+- Performed significantly worse to Baseline
+
+### Experiment 2: Continuous Variable 
+
+Dependent Variable: Risk of Mortality 
+
+Best Model: Ensemble 
+- Metric_Type: rmse
+- Metric_Value: 32770.9
+- Train_Time: 0.19
+
+Comparison: 
+- Performed considerable worse to Baseline 
